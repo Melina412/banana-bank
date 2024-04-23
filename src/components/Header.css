@@ -1,11 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Ruluko);
+@font-face {
+  font-family: 'Ruluko';
+  src: url('../assets/fonts/Ruluko-Regular.ttf');
+}
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Ruluko", sans-serif;
+  font-family: 'Ruluko', sans-serif;
   margin: 0px auto;
   text-align: center;
   width: 700px;
