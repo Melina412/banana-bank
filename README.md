@@ -4,7 +4,7 @@
 
 ## Vite + React Projekte deployen auf GitHub Pages mit `gh-pages`
 
-❗️❗️ ACHTUNG: Das geht nur bei static sites also ohne react router, weil die vite config base sonst als route fehlinterpretiert wird
+**❗️❗️ ACHTUNG: Das geht nur bei static sites also ohne react router, weil die vite config base sonst als route fehlinterpretiert wird**
 
 gh-pages als dev dependency installieren
 
