@@ -22,7 +22,7 @@ const EinAuszahlung = () => {
   // value von saldo wird als savedSaldo gespeichert, siehe f checkSaldo()
   const getSavedSaldo = () => {
     setSavedSaldo(saldo);
-    console.log('setSavedSaldo -> saldo:', saldo);
+    // console.log('setSavedSaldo -> saldo:', saldo);
   };
 
   const alert = () => {
@@ -31,17 +31,17 @@ const EinAuszahlung = () => {
 
   //   logs zeigen in der Konsole genau an was beim Auszahlen passiert
   const checkSaldo = () => {
-    console.log("'Auzahlen' button wurde geklickt");
+    // console.log("'Auzahlen' button wurde geklickt");
     if (saldo - betrag >= 0) {
-      console.log('-> neuer Saldo > 0, Auszahlung erfolgt');
-      console.log('-> savedSaldo bleibt unverändert');
+      // console.log('-> neuer Saldo > 0, Auszahlung erfolgt');
+      // console.log('-> savedSaldo bleibt unverändert');
       setSaldo(saldo - betrag);
     } else {
-      console.log('-> neuer Saldo < 0, Auszahlung nicht möglich');
-      console.log('-> alert() wird ausgelöst');
+      // console.log('-> neuer Saldo < 0, Auszahlung nicht möglich');
+      // console.log('-> alert() wird ausgelöst');
       alert();
 
-      console.log('-> getSavedSaldo() wird ausgelöst');
+      // console.log('-> getSavedSaldo() wird ausgelöst');
       getSavedSaldo();
     }
     setInputValue('');
