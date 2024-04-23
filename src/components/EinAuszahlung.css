@@ -1,12 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
-@import url(http://fonts.googleapis.com/css?family=Ruluko);
+@font-face {
+  font-family: 'Ruluko';
+  src: url('../assets/fonts/Ruluko-Regular.ttf');
+}
+@font-face {
+  font-family: 'Oleo Script';
+  src: url('../assets/fonts/OleoScript-Regular.ttf');
+}
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Ruluko", sans-serif;
+  font-family: 'Ruluko', sans-serif;
   margin: 0px auto;
   text-align: center;
   width: 700px;
@@ -15,7 +21,7 @@ body {
 #title {
   color: #fbec5d;
   border-radius: 5px;
-  font-family: "Oleo Script", cursive;
+  font-family: 'Oleo Script', cursive;
   font-size: 50px;
   margin: 0;
 }
@@ -37,7 +43,7 @@ body {
   border: 1px solid #fbec5d;
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(107, 62, 38, 0.25);
-  font-family: "Ruluko", sans-serif;
+  font-family: 'Ruluko', sans-serif;
   font-size: 50px;
   margin: 15px;
   padding: 25px 0px;
