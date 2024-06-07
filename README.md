@@ -1,4 +1,6 @@
-# Deployment ➡️ [Banana Bank](https://melina412.github.io/Day53/)
+# Banana Bank
+
+🔗 [gh-pages deployment](https://melina412.github.io/banana-bank/)
 
 ![preview](/public/banana-bank-preview.png)
 
@@ -21,7 +23,7 @@ in der package.json diese beiden scripte ergänzen und das github repo als pfad 
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-"homepage": "https://melina412.github.io/Day53/"
+"homepage": "https://melina412.github.io/banana-bank/"
 ```
 
 wichtig: in vite config die eigenschaft `base` ergänzen und hier den namen des git repo angeben, weil vite sonst nur die relativen pfade für die dist files im source code angibt
@@ -31,7 +33,7 @@ wichtig: in vite config die eigenschaft `base` ergänzen und hier den namen des 
 ```js
 export default defineConfig({
   plugins: [react()],
-  base: '/Day53/', // <- git repo name
+  base: '/banana-bank/', // <- git repo name
 });
 ```
 
